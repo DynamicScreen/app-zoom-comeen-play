@@ -1,0 +1,17 @@
+{
+    "app": {
+        "name": "Réunion Zoom",
+        "description": "Diffuser vos réunion Zoom"
+    },
+    "modules": {
+        "meeting": {
+            "name": "Réunion Zoom",
+            "description": "Diffuser vos réunion Zoom",
+            "options": {
+                "config": "Configuration de la réunion",
+                "meeting-number": "Numéro de la réunion",
+                "meeting-password": "Mot de passe de la réunion"
+            }
+        }
+    }
+}

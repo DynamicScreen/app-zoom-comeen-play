@@ -1,0 +1,17 @@
+{
+    "app": {
+        "name": "Zoom Meeting",
+        "description": "Broadcast your Zoom meeting"
+    },
+    "modules": {
+        "meeting": {
+            "name": "Zoom Meeting",
+            "description": "Broadcast your Zoom meeting",
+            "options": {
+                "config": "Meeting configuration",
+                "meeting-number": "Meeting number",
+                "meeting-password": "Meeting password"
+            }
+        }
+    }
+}

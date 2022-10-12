@@ -1,0 +1,26 @@
+# YAML
+id: app-zoom-comeen-play
+name: app.name
+description: app.description
+logo: fas fa-circle-video
+version: 0.2.0
+channel: stable
+api-level: 1
+color: blue
+category:
+author:
+    name: Comeen
+    email: support@comeen.com
+modules:
+    - name: modules.meeting.name
+      logo: fas fa-circle-video
+      identifier: meeting
+      color: blue
+      type: slide
+      description: modules.meeting.description
+      options:
+          vue:
+              component: src/Meeting/Meeting.ts
+              options: src/Meeting/MeetingOptions.ts
+          php:
+              handler: \Comeen\Zoom\Meeting\MeetingHandler
