@@ -17,13 +17,6 @@ export default class MeetingSlideModule extends SlideModule {
   };
 
   setup(props: Record<string, any>, vue: VueInstance, context: ISlideContext) {
-const en = require("/Users/nicolas/Desktop/DS/app-server/storage/apps//app-zoom-comeen-play/0.2.0/languages/en.json");
-const fr = require("/Users/nicolas/Desktop/DS/app-server/storage/apps//app-zoom-comeen-play/0.2.0/languages/fr.json");
-const translator: any = this.context.translator;
-translator.addResourceBundle('en', 'meeting', en);
-translator.addResourceBundle('fr', 'meeting', fr);
-this.t = (key: string, namespace: string = 'meeting') => translator.t(key, {ns: namespace});
-
     const { h, reactive, ref } = vue;
 
     const slide = reactive(props.slide) as IPublicSlide;
